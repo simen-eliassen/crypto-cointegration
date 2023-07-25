@@ -1,0 +1,73 @@
+[2023-07-25T15:58:02] INFO [root.<module>:1] Hello world!
+[2023-07-25T16:47:13] INFO [root.<module>:4] Collecting data for BTCUSDT from 2023-01-01 00:00
+[2023-07-25T16:47:33] INFO [root.<module>:4] Collecting data for BTCUSDT from 2023-01-01 00:00
+[2023-07-25T17:00:05] INFO [root.<module>:2] Writing to database
+[2023-07-25T17:00:24] INFO [root.<module>:2] Writing to database
+[2023-07-25T17:03:01] INFO [root.<module>:2] Writing to database
+[2023-07-25T18:16:38] INFO [root.<module>:3] Collecting data for BTC/USDT from 2022-01-01 00:00
+[2023-07-25T18:16:45] INFO [root.<module>:19] Writing to database
+[2023-07-25T18:24:24] INFO [root.<module>:86] Collecting data for BTC/USDT from 2022-01-01 00:00
+[2023-07-25T18:24:30] INFO [root.<module>:101] Writing to database
+[2023-07-25T18:24:30] INFO [root.<module>:86] Collecting data for ETH/USDT from 2022-01-01 00:00
+[2023-07-25T18:24:37] INFO [root.<module>:101] Writing to database
+[2023-07-25T18:24:37] INFO [root.<module>:86] Collecting data for BNB/USDT from 2022-01-01 00:00
+[2023-07-25T18:24:43] INFO [root.<module>:101] Writing to database
+[2023-07-25T18:24:43] INFO [root.<module>:86] Collecting data for NEO/USDT from 2022-01-01 00:00
+[2023-07-25T18:24:49] INFO [root.<module>:101] Writing to database
+[2023-07-25T18:24:49] INFO [root.<module>:86] Collecting data for LTC/USDT from 2022-01-01 00:00
+[2023-07-25T18:24:56] INFO [root.<module>:101] Writing to database
+[2023-07-25T18:24:56] INFO [root.<module>:86] Collecting data for QTUM/USDT from 2022-01-01 00:00
+[2023-07-25T18:25:02] INFO [root.<module>:101] Writing to database
+[2023-07-25T18:25:02] INFO [root.<module>:86] Collecting data for ADA/USDT from 2022-01-01 00:00
+[2023-07-25T18:25:08] INFO [root.<module>:101] Writing to database
+[2023-07-25T18:25:08] INFO [root.<module>:86] Collecting data for XRP/USDT from 2022-01-01 00:00
+[2023-07-25T18:25:15] INFO [root.<module>:101] Writing to database
+[2023-07-25T18:25:15] INFO [root.<module>:86] Collecting data for EOS/USDT from 2022-01-01 00:00
+[2023-07-25T18:25:21] INFO [root.<module>:101] Writing to database
+[2023-07-25T18:25:21] INFO [root.<module>:86] Collecting data for TUSD/USDT from 2022-01-01 00:00
+[2023-07-25T18:25:27] INFO [root.<module>:101] Writing to database
+[2023-07-25T18:25:27] INFO [root.<module>:86] Collecting data for IOTA/USDT from 2022-01-01 00:00
+[2023-07-25T18:25:33] INFO [root.<module>:101] Writing to database
+[2023-07-25T18:25:33] INFO [root.<module>:86] Collecting data for XLM/USDT from 2022-01-01 00:00
+[2023-07-25T18:25:40] INFO [root.<module>:101] Writing to database
+[2023-07-25T18:25:40] INFO [root.<module>:86] Collecting data for ONT/USDT from 2022-01-01 00:00
+[2023-07-25T18:25:47] INFO [root.<module>:101] Writing to database
+[2023-07-25T18:25:47] INFO [root.<module>:86] Collecting data for TRX/USDT from 2022-01-01 00:00
+[2023-07-25T18:25:53] INFO [root.<module>:101] Writing to database
+[2023-07-25T18:25:53] INFO [root.<module>:86] Collecting data for ETC/USDT from 2022-01-01 00:00
+[2023-07-25T18:26:00] INFO [root.<module>:101] Writing to database
+[2023-07-25T18:26:00] INFO [root.<module>:86] Collecting data for ICX/USDT from 2022-01-01 00:00
+[2023-07-25T18:26:06] INFO [root.<module>:101] Writing to database
+[2023-07-25T18:26:06] INFO [root.<module>:86] Collecting data for NULS/USDT from 2022-01-01 00:00
+[2023-07-25T18:26:12] INFO [root.<module>:101] Writing to database
+[2023-07-25T18:26:12] INFO [root.<module>:86] Collecting data for VET/USDT from 2022-01-01 00:00
+[2023-07-25T18:26:19] INFO [root.<module>:101] Writing to database
+[2023-07-25T18:26:19] INFO [root.<module>:86] Collecting data for BCH/USDT from 2022-01-01 00:00
+[2023-07-25T18:26:25] INFO [root.<module>:101] Writing to database
+[2023-07-25T18:26:25] INFO [root.<module>:86] Collecting data for USDC/USDT from 2022-01-01 00:00
+[2023-07-25T18:26:31] INFO [root.<module>:101] Writing to database
+[2023-07-25T18:26:31] INFO [root.<module>:86] Collecting data for LINK/USDT from 2022-01-01 00:00
+[2023-07-25T18:26:38] INFO [root.<module>:101] Writing to database
+[2023-07-25T18:26:38] INFO [root.<module>:86] Collecting data for WAVES/USDT from 2022-01-01 00:00
+[2023-07-25T18:26:44] INFO [root.<module>:101] Writing to database
+[2023-07-25T18:26:44] INFO [root.<module>:86] Collecting data for ONG/USDT from 2022-01-01 00:00
+[2023-07-25T18:26:51] INFO [root.<module>:101] Writing to database
+[2023-07-25T18:26:51] INFO [root.<module>:86] Collecting data for HOT/USDT from 2022-01-01 00:00
+[2023-07-25T18:26:57] INFO [root.<module>:101] Writing to database
+[2023-07-25T18:26:57] INFO [root.<module>:86] Collecting data for ZIL/USDT from 2022-01-01 00:00
+[2023-07-25T18:27:03] INFO [root.<module>:101] Writing to database
+[2023-07-25T18:27:03] INFO [root.<module>:86] Collecting data for ZRX/USDT from 2022-01-01 00:00
+[2023-07-25T18:27:10] INFO [root.<module>:101] Writing to database
+[2023-07-25T18:27:10] INFO [root.<module>:86] Collecting data for FET/USDT from 2022-01-01 00:00
+[2023-07-25T18:27:16] INFO [root.<module>:101] Writing to database
+[2023-07-25T18:27:16] INFO [root.<module>:86] Collecting data for BAT/USDT from 2022-01-01 00:00
+[2023-07-25T18:27:23] INFO [root.<module>:101] Writing to database
+[2023-07-25T18:27:23] INFO [root.<module>:86] Collecting data for XMR/USDT from 2022-01-01 00:00
+[2023-07-25T18:27:29] INFO [root.<module>:101] Writing to database
+[2023-07-25T18:27:29] INFO [root.<module>:86] Collecting data for ZEC/USDT from 2022-01-01 00:00
+[2023-07-25T18:27:35] INFO [root.<module>:101] Writing to database
+[2023-07-25T18:27:35] INFO [root.<module>:86] Collecting data for IOST/USDT from 2022-01-01 00:00
+[2023-07-25T18:27:42] INFO [root.<module>:101] Writing to database
+[2023-07-25T18:27:42] INFO [root.<module>:86] Collecting data for CELR/USDT from 2022-01-01 00:00
+[2023-07-25T18:27:48] INFO [root.<module>:101] Writing to database
+[2023-07-25T18:27:48] INFO [root.<module>:86] Collecting data for DASH/USDT from 2022-01-01 00:00
