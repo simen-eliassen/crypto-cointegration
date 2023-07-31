@@ -1,0 +1,134 @@
+[2023-07-28T11:11:52] INFO [root.<module>:103] Collecting data for ARB/USDT from 2018-01-01 00:00
+[2023-07-28T11:11:58] INFO [root.<module>:120] Writing to database
+[2023-07-28T11:11:58] INFO [root.<module>:103] Collecting data for ATOM/USDT from 2018-01-01 00:00
+[2023-07-28T11:12:05] INFO [root.<module>:103] Collecting data for ATOM/USDT from 2022-01-22 01:00
+[2023-07-28T11:12:11] INFO [root.<module>:120] Writing to database
+[2023-07-28T11:12:11] INFO [root.<module>:103] Collecting data for AVAX/USDT from 2018-01-01 00:00
+[2023-07-28T11:12:17] INFO [root.<module>:103] Collecting data for AVAX/USDT from 2023-06-18 01:00
+[2023-07-28T11:12:24] INFO [root.<module>:120] Writing to database
+[2023-07-28T11:12:24] INFO [root.<module>:103] Collecting data for AXS/USDT from 2018-01-01 00:00
+[2023-07-28T11:12:30] INFO [root.<module>:120] Writing to database
+[2023-07-28T11:12:30] INFO [root.<module>:103] Collecting data for BCH/USDT from 2018-01-01 00:00
+[2023-07-28T11:12:37] INFO [root.<module>:103] Collecting data for BCH/USDT from 2022-08-23 01:00
+[2023-07-28T11:12:43] INFO [root.<module>:120] Writing to database
+[2023-07-28T11:12:43] INFO [root.<module>:103] Collecting data for BNB/USDT from 2018-01-01 00:00
+[2023-07-28T11:12:49] INFO [root.<module>:103] Collecting data for BNB/USDT from 2020-09-26 01:00
+[2023-07-28T11:12:56] INFO [root.<module>:120] Writing to database
+[2023-07-28T11:12:56] INFO [root.<module>:103] Collecting data for BTC/USDT from 2018-01-01 00:00
+[2023-07-28T11:13:02] INFO [root.<module>:103] Collecting data for BTC/USDT from 2020-09-26 01:00
+[2023-07-28T11:13:08] INFO [root.<module>:120] Writing to database
+[2023-07-28T11:13:08] INFO [root.<module>:103] Collecting data for BUSD/USDT from 2018-01-01 00:00
+[2023-07-28T11:13:15] INFO [root.<module>:103] Collecting data for BUSD/USDT from 2022-06-15 01:00
+[2023-07-28T11:13:22] INFO [root.<module>:120] Writing to database
+[2023-07-28T11:13:22] INFO [root.<module>:103] Collecting data for CAKE/USDT from 2018-01-01 00:00
+[2023-07-28T11:18:34] ERROR [root.fetch_historical_data:75] Unexpected Error: Failed to fetch historical data
+Traceback (most recent call last):
+  File "/Users/simen/anaconda3/envs/crypto/lib/python3.11/site-packages/urllib3/connectionpool.py", line 790, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/Users/simen/anaconda3/envs/crypto/lib/python3.11/site-packages/urllib3/connectionpool.py", line 536, in _make_request
+    response = conn.getresponse()
+               ^^^^^^^^^^^^^^^^^^
+  File "/Users/simen/anaconda3/envs/crypto/lib/python3.11/site-packages/urllib3/connection.py", line 461, in getresponse
+    httplib_response = super().getresponse()
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/simen/anaconda3/envs/crypto/lib/python3.11/http/client.py", line 1378, in getresponse
+    response.begin()
+  File "/Users/simen/anaconda3/envs/crypto/lib/python3.11/http/client.py", line 318, in begin
+    version, status, reason = self._read_status()
+                              ^^^^^^^^^^^^^^^^^^^
+  File "/Users/simen/anaconda3/envs/crypto/lib/python3.11/http/client.py", line 287, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+http.client.RemoteDisconnected: Remote end closed connection without response
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/simen/anaconda3/envs/crypto/lib/python3.11/site-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/Users/simen/anaconda3/envs/crypto/lib/python3.11/site-packages/urllib3/connectionpool.py", line 844, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/Users/simen/anaconda3/envs/crypto/lib/python3.11/site-packages/urllib3/util/retry.py", line 470, in increment
+    raise reraise(type(error), error, _stacktrace)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/simen/anaconda3/envs/crypto/lib/python3.11/site-packages/urllib3/util/util.py", line 38, in reraise
+    raise value.with_traceback(tb)
+  File "/Users/simen/anaconda3/envs/crypto/lib/python3.11/site-packages/urllib3/connectionpool.py", line 790, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/Users/simen/anaconda3/envs/crypto/lib/python3.11/site-packages/urllib3/connectionpool.py", line 536, in _make_request
+    response = conn.getresponse()
+               ^^^^^^^^^^^^^^^^^^
+  File "/Users/simen/anaconda3/envs/crypto/lib/python3.11/site-packages/urllib3/connection.py", line 461, in getresponse
+    httplib_response = super().getresponse()
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/simen/anaconda3/envs/crypto/lib/python3.11/http/client.py", line 1378, in getresponse
+    response.begin()
+  File "/Users/simen/anaconda3/envs/crypto/lib/python3.11/http/client.py", line 318, in begin
+    version, status, reason = self._read_status()
+                              ^^^^^^^^^^^^^^^^^^^
+  File "/Users/simen/anaconda3/envs/crypto/lib/python3.11/http/client.py", line 287, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+urllib3.exceptions.ProtocolError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/simen/anaconda3/envs/crypto/lib/python3.11/site-packages/ccxt/base/exchange.py", line 574, in fetch
+    response = self.session.request(
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/simen/anaconda3/envs/crypto/lib/python3.11/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/simen/anaconda3/envs/crypto/lib/python3.11/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/simen/anaconda3/envs/crypto/lib/python3.11/site-packages/requests/adapters.py", line 501, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "<ipython-input-23-62838092296e>", line 49, in fetch_historical_data
+    historical_data = exchange.fetch_ohlcv(symbol, timeframe, since, limit)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/simen/anaconda3/envs/crypto/lib/python3.11/site-packages/ccxt/binance.py", line 3202, in fetch_ohlcv
+    response = getattr(self, method)(self.extend(request, params))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/simen/anaconda3/envs/crypto/lib/python3.11/site-packages/ccxt/base/types.py", line 26, in unbound_method
+    return _self.request(self.path, self.api, self.method, params, config=self.config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/simen/anaconda3/envs/crypto/lib/python3.11/site-packages/ccxt/binance.py", line 7489, in request
+    response = self.fetch2(path, api, method, params, headers, body, config)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/simen/anaconda3/envs/crypto/lib/python3.11/site-packages/ccxt/base/exchange.py", line 2986, in fetch2
+    return self.fetch(request['url'], request['method'], request['headers'], request['body'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/simen/anaconda3/envs/crypto/lib/python3.11/site-packages/ccxt/base/exchange.py", line 627, in fetch
+    raise NetworkError(details) from e
+ccxt.base.errors.NetworkError: binance GET https://api.binance.com/api/v3/klines?interval=1d&limit=1000&symbol=CAKEUSDT&startTime=1514764800000
+[2023-07-28T11:18:34] INFO [root.<module>:120] Writing to database
+[2023-07-28T11:18:34] INFO [root.<module>:103] Collecting data for CFX/USDT from 2018-01-01 00:00
+[2023-07-28T11:18:40] INFO [root.<module>:120] Writing to database
+[2023-07-28T11:18:40] INFO [root.<module>:103] Collecting data for CHZ/USDT from 2018-01-01 00:00
+[2023-07-28T11:18:47] INFO [root.<module>:103] Collecting data for CHZ/USDT from 2022-06-01 01:00
+[2023-07-28T11:18:53] INFO [root.<module>:120] Writing to database
+[2023-07-28T11:18:53] INFO [root.<module>:103] Collecting data for COMP/USDT from 2018-01-01 00:00
+[2023-07-28T11:18:59] INFO [root.<module>:103] Collecting data for COMP/USDT from 2023-03-21 01:00
+[2023-07-28T11:19:06] INFO [root.<module>:120] Writing to database
+[2023-07-28T11:19:06] INFO [root.<module>:103] Collecting data for CRV/USDT from 2018-01-01 00:00
+[2023-07-28T11:19:13] INFO [root.<module>:103] Collecting data for CRV/USDT from 2023-05-11 01:00
+[2023-07-28T11:23:19] INFO [root.<module>:103] Collecting data for 1INCH/USDT from 2018-01-01 00:00
+[2023-07-28T11:23:26] INFO [root.<module>:120] Writing to database
+[2023-07-28T11:23:26] INFO [root.<module>:103] Collecting data for AAVE/USDT from 2018-01-01 00:00
+[2023-07-28T11:23:33] INFO [root.<module>:120] Writing to database
+[2023-07-28T11:23:33] INFO [root.<module>:103] Collecting data for ADA/USDT from 2018-01-01 00:00
+[2023-07-28T11:23:39] INFO [root.<module>:120] Writing to database
+[2023-07-28T11:23:39] INFO [root.<module>:103] Collecting data for ALGO/USDT from 2018-01-01 00:00
+[2023-07-28T11:23:45] INFO [root.<module>:120] Writing to database
+[2023-07-28T11:23:45] INFO [root.<module>:103] Collecting data for APE/USDT from 2018-01-01 00:00
+[2023-07-28T11:23:52] INFO [root.<module>:120] Writing to database
+[2023-07-28T11:23:52] INFO [root.<module>:103] Collecting data for APT/USDT from 2018-01-01 00:00

@@ -30,5 +30,5 @@ df_stationary_test = df_stationary_test.drop(columns=["symbol"])
 df_stationary_test["test_date"] = datetime.datetime.now()
 
 with sqlite3.connect("./data/database.db") as conn:
-    df_stationary_test.to_sql("tblStationaryTest", conn, if_exists="append", index=False)
+    df_stationary_test.to_sql("tblStationaryTest", conn, if_exists="replace", index=False)
 

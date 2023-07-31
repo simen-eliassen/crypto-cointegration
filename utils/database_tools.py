@@ -15,7 +15,7 @@ def query_active_symbols():
 
 def query_topN_symbols(N):
     query = f"""
-        SELECT distinct pk_symbols, S.symbol
+        SELECT distinct pk_symbols, S.symbol, cmcRank
         FROM DimSymbols S
             inner join (
                 select *
@@ -34,8 +34,10 @@ def query_topN_symbols(N):
 
 def query_topN_symbols_with_last_date(N):
     query = f"""
-        select symbol,
-            max([date]) as start_date
+        select fk_symbols,
+            symbol,
+            min([date]) as first_date,
+            max([date]) as last_date
         from FactPriceData P
         where P.symbol in (        
             SELECT distinct S.symbol
@@ -54,8 +56,9 @@ def query_topN_symbols_with_last_date(N):
     with sqlite3.connect("./data/database.db") as conn:
         df = pd.read_sql_query(query, conn)
         
-    df.start_date = pd.to_datetime(df.start_date) + pd.Timedelta(days=1)
-    
+    df.first_date = pd.to_datetime(df.first_date) + pd.Timedelta(days=1)
+    df.last_date = pd.to_datetime(df.last_date) + pd.Timedelta(days=1)
+
     return df
 
 def query_topN_price_data(N):
@@ -103,3 +106,4 @@ def query_stationary_test():
         df = pd.read_sql_query(query, conn)
         
     return df
+

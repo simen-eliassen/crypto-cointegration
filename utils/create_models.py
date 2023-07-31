@@ -12,10 +12,10 @@ import multiprocessing
 import warnings
 
 
-def generate_crypto_pairs(dependent_coin, all_symbols, min_pairs=2, max_pairs=4):
+def generate_crypto_pairs(dependent_coin, all_symbols, min_pairs=2, max_pairs=3):
     crypto_pairs = []
     for coin in tqdm.tqdm(all_symbols):
-        for i in range(min_pairs-1, max_pairs-1):
+        for i in range(min_pairs-1, max_pairs):
             if coin in [dependent_coin]:
                 symbols2combine = [s for s in all_symbols if s != coin]
                 combs = list(itertools.combinations(symbols2combine, i))

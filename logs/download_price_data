@@ -1,0 +1,76 @@
+[2023-07-28T11:31:39] INFO [root.<module>:103] Collecting data for PAXG/USDT from 2018-01-01 00:00
+[2023-07-28T11:31:46] INFO [root.<module>:103] Collecting data for PAXG/USDT from 2023-05-24 01:00
+[2023-07-28T11:31:52] INFO [root.<module>:120] Writing to database
+[2023-07-28T11:31:52] INFO [root.<module>:103] Collecting data for PEPE/USDT from 2018-01-01 00:00
+[2023-07-28T11:31:58] INFO [root.<module>:120] Writing to database
+[2023-07-28T11:31:58] INFO [root.<module>:103] Collecting data for QNT/USDT from 2018-01-01 00:00
+[2023-07-28T11:32:05] INFO [root.<module>:120] Writing to database
+[2023-07-28T11:32:05] INFO [root.<module>:103] Collecting data for RNDR/USDT from 2018-01-01 00:00
+[2023-07-28T11:32:11] INFO [root.<module>:120] Writing to database
+[2023-07-28T11:32:11] INFO [root.<module>:103] Collecting data for RPL/USDT from 2018-01-01 00:00
+[2023-07-28T11:32:17] INFO [root.<module>:120] Writing to database
+[2023-07-28T11:32:17] INFO [root.<module>:103] Collecting data for RUNE/USDT from 2018-01-01 00:00
+[2023-07-28T11:32:24] INFO [root.<module>:103] Collecting data for RUNE/USDT from 2023-05-31 01:00
+[2023-07-28T11:32:30] INFO [root.<module>:120] Writing to database
+[2023-07-28T11:32:30] INFO [root.<module>:103] Collecting data for SAND/USDT from 2018-01-01 00:00
+[2023-07-28T11:32:36] INFO [root.<module>:103] Collecting data for SAND/USDT from 2023-05-10 01:00
+[2023-07-28T11:32:43] INFO [root.<module>:120] Writing to database
+[2023-07-28T11:32:43] INFO [root.<module>:103] Collecting data for SHIB/USDT from 2018-01-01 00:00
+[2023-07-28T11:32:49] INFO [root.<module>:120] Writing to database
+[2023-07-28T11:32:49] INFO [root.<module>:103] Collecting data for SNX/USDT from 2018-01-01 00:00
+[2023-07-28T11:32:56] INFO [root.<module>:103] Collecting data for SNX/USDT from 2023-04-04 01:00
+[2023-07-28T11:33:02] INFO [root.<module>:120] Writing to database
+[2023-07-28T11:33:02] INFO [root.<module>:103] Collecting data for SOL/USDT from 2018-01-01 00:00
+[2023-07-28T11:33:09] INFO [root.<module>:103] Collecting data for SOL/USDT from 2023-05-07 01:00
+[2023-07-28T11:33:15] INFO [root.<module>:120] Writing to database
+[2023-07-28T11:33:15] INFO [root.<module>:103] Collecting data for STX/USDT from 2018-01-01 00:00
+[2023-07-28T11:33:21] INFO [root.<module>:103] Collecting data for STX/USDT from 2022-07-20 01:00
+[2023-07-28T11:33:28] INFO [root.<module>:120] Writing to database
+[2023-07-28T11:33:28] INFO [root.<module>:103] Collecting data for SUI/USDT from 2018-01-01 00:00
+[2023-07-28T11:33:34] INFO [root.<module>:120] Writing to database
+[2023-07-28T11:33:34] INFO [root.<module>:103] Collecting data for THETA/USDT from 2018-01-01 00:00
+[2023-07-28T11:33:40] INFO [root.<module>:103] Collecting data for THETA/USDT from 2022-01-03 01:00
+[2023-07-28T11:33:47] INFO [root.<module>:120] Writing to database
+[2023-07-28T11:33:47] INFO [root.<module>:103] Collecting data for TRX/USDT from 2018-01-01 00:00
+[2023-07-28T11:33:53] INFO [root.<module>:103] Collecting data for TRX/USDT from 2021-03-06 01:00
+[2023-07-28T11:34:00] INFO [root.<module>:120] Writing to database
+[2023-07-28T11:34:00] INFO [root.<module>:103] Collecting data for TUSD/USDT from 2018-01-01 00:00
+[2023-07-28T11:34:06] INFO [root.<module>:103] Collecting data for TUSD/USDT from 2021-02-23 01:00
+[2023-07-28T11:34:12] INFO [root.<module>:120] Writing to database
+[2023-07-28T11:34:12] INFO [root.<module>:103] Collecting data for TWT/USDT from 2018-01-01 00:00
+[2023-07-28T11:34:19] INFO [root.<module>:120] Writing to database
+[2023-07-28T11:34:19] INFO [root.<module>:103] Collecting data for UNI/USDT from 2018-01-01 00:00
+[2023-07-28T11:34:26] INFO [root.<module>:103] Collecting data for UNI/USDT from 2023-06-13 01:00
+[2023-07-28T11:34:32] INFO [root.<module>:120] Writing to database
+[2023-07-28T11:34:32] INFO [root.<module>:103] Collecting data for USDC/USDT from 2018-01-01 00:00
+[2023-07-28T11:34:38] INFO [root.<module>:103] Collecting data for USDC/USDT from 2021-09-09 01:00
+[2023-07-28T11:34:45] INFO [root.<module>:120] Writing to database
+[2023-07-28T11:34:45] INFO [root.<module>:103] Collecting data for USDP/USDT from 2018-01-01 00:00
+[2023-07-28T11:34:51] INFO [root.<module>:120] Writing to database
+[2023-07-28T11:34:51] INFO [root.<module>:103] Collecting data for VET/USDT from 2018-01-01 00:00
+[2023-07-28T11:34:58] INFO [root.<module>:103] Collecting data for VET/USDT from 2021-04-19 01:00
+[2023-07-28T11:35:04] INFO [root.<module>:120] Writing to database
+[2023-07-28T11:35:04] INFO [root.<module>:103] Collecting data for WBTC/USDT from 2018-01-01 00:00
+[2023-07-28T11:35:10] INFO [root.<module>:120] Writing to database
+[2023-07-28T11:35:10] INFO [root.<module>:103] Collecting data for WOO/USDT from 2018-01-01 00:00
+[2023-07-28T11:35:17] INFO [root.<module>:120] Writing to database
+[2023-07-28T11:35:17] INFO [root.<module>:103] Collecting data for XEC/USDT from 2018-01-01 00:00
+[2023-07-28T11:35:23] INFO [root.<module>:120] Writing to database
+[2023-07-28T11:35:23] INFO [root.<module>:103] Collecting data for XLM/USDT from 2018-01-01 00:00
+[2023-07-28T11:35:29] INFO [root.<module>:103] Collecting data for XLM/USDT from 2021-02-23 01:00
+[2023-07-28T11:35:36] INFO [root.<module>:120] Writing to database
+[2023-07-28T11:35:36] INFO [root.<module>:103] Collecting data for XMR/USDT from 2018-01-01 00:00
+[2023-07-28T11:35:43] INFO [root.<module>:103] Collecting data for XMR/USDT from 2021-12-08 01:00
+[2023-07-28T11:35:49] INFO [root.<module>:120] Writing to database
+[2023-07-28T11:35:49] INFO [root.<module>:103] Collecting data for XRP/USDT from 2018-01-01 00:00
+[2023-07-28T11:35:55] INFO [root.<module>:103] Collecting data for XRP/USDT from 2021-01-27 01:00
+[2023-07-28T11:36:02] INFO [root.<module>:120] Writing to database
+[2023-07-28T11:36:02] INFO [root.<module>:103] Collecting data for XTZ/USDT from 2018-01-01 00:00
+[2023-07-28T11:36:08] INFO [root.<module>:103] Collecting data for XTZ/USDT from 2022-06-19 01:00
+[2023-07-28T11:36:15] INFO [root.<module>:120] Writing to database
+[2023-07-28T11:36:15] INFO [root.<module>:103] Collecting data for ZEC/USDT from 2018-01-01 00:00
+[2023-07-28T11:36:21] INFO [root.<module>:103] Collecting data for ZEC/USDT from 2021-12-14 01:00
+[2023-07-28T11:36:27] INFO [root.<module>:120] Writing to database
+[2023-07-28T11:36:27] INFO [root.<module>:103] Collecting data for ZIL/USDT from 2018-01-01 00:00
+[2023-07-28T11:36:34] INFO [root.<module>:103] Collecting data for ZIL/USDT from 2021-11-14 01:00
+[2023-07-28T11:36:41] INFO [root.<module>:120] Writing to database
