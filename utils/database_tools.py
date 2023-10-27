@@ -1,5 +1,29 @@
 import sqlite3
 import pandas as pd
+import json
+
+
+def query_latest_models():
+    query = """
+    SELECT *
+    FROM (
+        SELECT *,
+            RANK() OVER (
+                PARTITION BY model_name
+                ORDER BY model_date DESC
+            ) AS rank
+        FROM tblModels
+    ) A
+    WHERE A.rank = 1
+    """
+    with sqlite3.connect("./data/database.db") as conn:
+        df = pd.read_sql_query(query, conn)
+
+    # Apply json.loads() to model_coeff column
+    df["model_coeff"] = df["model_coeff"].apply(json.loads)
+
+    return df
+
 
 def query_active_symbols():
     query = """
@@ -10,8 +34,9 @@ def query_active_symbols():
     """
     with sqlite3.connect("./data/database.db") as conn:
         df = pd.read_sql_query(query, conn)
-        
+
     return df
+
 
 def query_topN_symbols(N):
     query = f"""
@@ -29,8 +54,9 @@ def query_topN_symbols(N):
     """
     with sqlite3.connect("./data/database.db") as conn:
         df = pd.read_sql_query(query, conn)
-        
+
     return df
+
 
 def query_topN_symbols_with_last_date(N):
     query = f"""
@@ -55,11 +81,12 @@ def query_topN_symbols_with_last_date(N):
     """
     with sqlite3.connect("./data/database.db") as conn:
         df = pd.read_sql_query(query, conn)
-        
+
     df.first_date = pd.to_datetime(df.first_date) + pd.Timedelta(days=1)
     df.last_date = pd.to_datetime(df.last_date) + pd.Timedelta(days=1)
 
     return df
+
 
 def query_topN_price_data(N):
     query = f"""
@@ -91,9 +118,9 @@ def query_topN_price_data(N):
     """
     with sqlite3.connect("./data/database.db") as conn:
         df = pd.read_sql_query(query, conn)
-        
-    df.date = pd.to_datetime(df.date) 
-    
+
+    df.date = pd.to_datetime(df.date)
+
     return df
 
 
@@ -104,6 +131,5 @@ def query_stationary_test():
     """
     with sqlite3.connect("./data/database.db") as conn:
         df = pd.read_sql_query(query, conn)
-        
-    return df
 
+    return df

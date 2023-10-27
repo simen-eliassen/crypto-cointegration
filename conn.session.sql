@@ -1,16 +1,10 @@
-delete from FactPriceData
-WHERE rowid in (
-        select rowid
-        from (
-                SELECT rowid,
-                    ROW_NUMBER() OVER (
-                        PARTITION BY symbol,
-                        timeframe,
-                        fk_symbols,
-                        date
-                        ORDER BY download_date desc
-                    ) AS rn
-                FROM FactPriceData
-            ) A
-        WHERE A.rn > 1
-    );
+drop table tblModels;
+CREATE TABLE tblModels (
+    model_id INT PRIMARY KEY,
+    model_name VARCHAR(50),
+    model_type VARCHAR(50),
+    model_coeff varchar(1000),
+    model_date DATETIME,
+    training_from_date DATETIME,
+    training_to_date DATETIME
+);

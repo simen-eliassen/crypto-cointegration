@@ -1,76 +1,81 @@
-[2023-07-28T11:31:39] INFO [root.<module>:103] Collecting data for PAXG/USDT from 2018-01-01 00:00
-[2023-07-28T11:31:46] INFO [root.<module>:103] Collecting data for PAXG/USDT from 2023-05-24 01:00
-[2023-07-28T11:31:52] INFO [root.<module>:120] Writing to database
-[2023-07-28T11:31:52] INFO [root.<module>:103] Collecting data for PEPE/USDT from 2018-01-01 00:00
-[2023-07-28T11:31:58] INFO [root.<module>:120] Writing to database
-[2023-07-28T11:31:58] INFO [root.<module>:103] Collecting data for QNT/USDT from 2018-01-01 00:00
-[2023-07-28T11:32:05] INFO [root.<module>:120] Writing to database
-[2023-07-28T11:32:05] INFO [root.<module>:103] Collecting data for RNDR/USDT from 2018-01-01 00:00
-[2023-07-28T11:32:11] INFO [root.<module>:120] Writing to database
-[2023-07-28T11:32:11] INFO [root.<module>:103] Collecting data for RPL/USDT from 2018-01-01 00:00
-[2023-07-28T11:32:17] INFO [root.<module>:120] Writing to database
-[2023-07-28T11:32:17] INFO [root.<module>:103] Collecting data for RUNE/USDT from 2018-01-01 00:00
-[2023-07-28T11:32:24] INFO [root.<module>:103] Collecting data for RUNE/USDT from 2023-05-31 01:00
-[2023-07-28T11:32:30] INFO [root.<module>:120] Writing to database
-[2023-07-28T11:32:30] INFO [root.<module>:103] Collecting data for SAND/USDT from 2018-01-01 00:00
-[2023-07-28T11:32:36] INFO [root.<module>:103] Collecting data for SAND/USDT from 2023-05-10 01:00
-[2023-07-28T11:32:43] INFO [root.<module>:120] Writing to database
-[2023-07-28T11:32:43] INFO [root.<module>:103] Collecting data for SHIB/USDT from 2018-01-01 00:00
-[2023-07-28T11:32:49] INFO [root.<module>:120] Writing to database
-[2023-07-28T11:32:49] INFO [root.<module>:103] Collecting data for SNX/USDT from 2018-01-01 00:00
-[2023-07-28T11:32:56] INFO [root.<module>:103] Collecting data for SNX/USDT from 2023-04-04 01:00
-[2023-07-28T11:33:02] INFO [root.<module>:120] Writing to database
-[2023-07-28T11:33:02] INFO [root.<module>:103] Collecting data for SOL/USDT from 2018-01-01 00:00
-[2023-07-28T11:33:09] INFO [root.<module>:103] Collecting data for SOL/USDT from 2023-05-07 01:00
-[2023-07-28T11:33:15] INFO [root.<module>:120] Writing to database
-[2023-07-28T11:33:15] INFO [root.<module>:103] Collecting data for STX/USDT from 2018-01-01 00:00
-[2023-07-28T11:33:21] INFO [root.<module>:103] Collecting data for STX/USDT from 2022-07-20 01:00
-[2023-07-28T11:33:28] INFO [root.<module>:120] Writing to database
-[2023-07-28T11:33:28] INFO [root.<module>:103] Collecting data for SUI/USDT from 2018-01-01 00:00
-[2023-07-28T11:33:34] INFO [root.<module>:120] Writing to database
-[2023-07-28T11:33:34] INFO [root.<module>:103] Collecting data for THETA/USDT from 2018-01-01 00:00
-[2023-07-28T11:33:40] INFO [root.<module>:103] Collecting data for THETA/USDT from 2022-01-03 01:00
-[2023-07-28T11:33:47] INFO [root.<module>:120] Writing to database
-[2023-07-28T11:33:47] INFO [root.<module>:103] Collecting data for TRX/USDT from 2018-01-01 00:00
-[2023-07-28T11:33:53] INFO [root.<module>:103] Collecting data for TRX/USDT from 2021-03-06 01:00
-[2023-07-28T11:34:00] INFO [root.<module>:120] Writing to database
-[2023-07-28T11:34:00] INFO [root.<module>:103] Collecting data for TUSD/USDT from 2018-01-01 00:00
-[2023-07-28T11:34:06] INFO [root.<module>:103] Collecting data for TUSD/USDT from 2021-02-23 01:00
-[2023-07-28T11:34:12] INFO [root.<module>:120] Writing to database
-[2023-07-28T11:34:12] INFO [root.<module>:103] Collecting data for TWT/USDT from 2018-01-01 00:00
-[2023-07-28T11:34:19] INFO [root.<module>:120] Writing to database
-[2023-07-28T11:34:19] INFO [root.<module>:103] Collecting data for UNI/USDT from 2018-01-01 00:00
-[2023-07-28T11:34:26] INFO [root.<module>:103] Collecting data for UNI/USDT from 2023-06-13 01:00
-[2023-07-28T11:34:32] INFO [root.<module>:120] Writing to database
-[2023-07-28T11:34:32] INFO [root.<module>:103] Collecting data for USDC/USDT from 2018-01-01 00:00
-[2023-07-28T11:34:38] INFO [root.<module>:103] Collecting data for USDC/USDT from 2021-09-09 01:00
-[2023-07-28T11:34:45] INFO [root.<module>:120] Writing to database
-[2023-07-28T11:34:45] INFO [root.<module>:103] Collecting data for USDP/USDT from 2018-01-01 00:00
-[2023-07-28T11:34:51] INFO [root.<module>:120] Writing to database
-[2023-07-28T11:34:51] INFO [root.<module>:103] Collecting data for VET/USDT from 2018-01-01 00:00
-[2023-07-28T11:34:58] INFO [root.<module>:103] Collecting data for VET/USDT from 2021-04-19 01:00
-[2023-07-28T11:35:04] INFO [root.<module>:120] Writing to database
-[2023-07-28T11:35:04] INFO [root.<module>:103] Collecting data for WBTC/USDT from 2018-01-01 00:00
-[2023-07-28T11:35:10] INFO [root.<module>:120] Writing to database
-[2023-07-28T11:35:10] INFO [root.<module>:103] Collecting data for WOO/USDT from 2018-01-01 00:00
-[2023-07-28T11:35:17] INFO [root.<module>:120] Writing to database
-[2023-07-28T11:35:17] INFO [root.<module>:103] Collecting data for XEC/USDT from 2018-01-01 00:00
-[2023-07-28T11:35:23] INFO [root.<module>:120] Writing to database
-[2023-07-28T11:35:23] INFO [root.<module>:103] Collecting data for XLM/USDT from 2018-01-01 00:00
-[2023-07-28T11:35:29] INFO [root.<module>:103] Collecting data for XLM/USDT from 2021-02-23 01:00
-[2023-07-28T11:35:36] INFO [root.<module>:120] Writing to database
-[2023-07-28T11:35:36] INFO [root.<module>:103] Collecting data for XMR/USDT from 2018-01-01 00:00
-[2023-07-28T11:35:43] INFO [root.<module>:103] Collecting data for XMR/USDT from 2021-12-08 01:00
-[2023-07-28T11:35:49] INFO [root.<module>:120] Writing to database
-[2023-07-28T11:35:49] INFO [root.<module>:103] Collecting data for XRP/USDT from 2018-01-01 00:00
-[2023-07-28T11:35:55] INFO [root.<module>:103] Collecting data for XRP/USDT from 2021-01-27 01:00
-[2023-07-28T11:36:02] INFO [root.<module>:120] Writing to database
-[2023-07-28T11:36:02] INFO [root.<module>:103] Collecting data for XTZ/USDT from 2018-01-01 00:00
-[2023-07-28T11:36:08] INFO [root.<module>:103] Collecting data for XTZ/USDT from 2022-06-19 01:00
-[2023-07-28T11:36:15] INFO [root.<module>:120] Writing to database
-[2023-07-28T11:36:15] INFO [root.<module>:103] Collecting data for ZEC/USDT from 2018-01-01 00:00
-[2023-07-28T11:36:21] INFO [root.<module>:103] Collecting data for ZEC/USDT from 2021-12-14 01:00
-[2023-07-28T11:36:27] INFO [root.<module>:120] Writing to database
-[2023-07-28T11:36:27] INFO [root.<module>:103] Collecting data for ZIL/USDT from 2018-01-01 00:00
-[2023-07-28T11:36:34] INFO [root.<module>:103] Collecting data for ZIL/USDT from 2021-11-14 01:00
-[2023-07-28T11:36:41] INFO [root.<module>:120] Writing to database
+[2023-10-27T09:07:44] INFO [root.<module>:103] Collecting data for SAND/USDT from 2023-08-31 00:00
+[2023-10-27T09:07:50] INFO [root.<module>:120] Writing to database
+[2023-10-27T09:07:50] INFO [root.<module>:103] Collecting data for SHIB/USDT from 2023-08-31 00:00
+[2023-10-27T09:07:56] INFO [root.<module>:120] Writing to database
+[2023-10-27T09:07:56] INFO [root.<module>:103] Collecting data for SNX/USDT from 2023-08-31 00:00
+[2023-10-27T09:08:02] INFO [root.<module>:120] Writing to database
+[2023-10-27T09:08:02] INFO [root.<module>:103] Collecting data for SOL/USDT from 2023-08-31 00:00
+[2023-10-27T09:08:08] INFO [root.<module>:120] Writing to database
+[2023-10-27T09:08:08] INFO [root.<module>:103] Collecting data for STX/USDT from 2023-08-31 00:00
+[2023-10-27T09:08:14] INFO [root.<module>:120] Writing to database
+[2023-10-27T09:08:14] INFO [root.<module>:103] Collecting data for SUI/USDT from 2023-08-31 00:00
+[2023-10-27T09:08:20] INFO [root.<module>:120] Writing to database
+[2023-10-27T09:08:20] INFO [root.<module>:103] Collecting data for THETA/USDT from 2023-08-31 00:00
+[2023-10-27T09:08:26] INFO [root.<module>:120] Writing to database
+[2023-10-27T09:08:26] INFO [root.<module>:103] Collecting data for TRX/USDT from 2023-08-31 00:00
+[2023-10-27T09:08:31] INFO [root.<module>:120] Writing to database
+[2023-10-27T09:08:31] INFO [root.<module>:103] Collecting data for TUSD/USDT from 2023-08-31 00:00
+[2023-10-27T09:08:37] INFO [root.<module>:120] Writing to database
+[2023-10-27T09:08:37] INFO [root.<module>:103] Collecting data for TWT/USDT from 2023-08-31 00:00
+[2023-10-27T09:08:43] INFO [root.<module>:120] Writing to database
+[2023-10-27T09:08:43] INFO [root.<module>:103] Collecting data for UNI/USDT from 2023-08-31 00:00
+[2023-10-27T09:08:49] INFO [root.<module>:120] Writing to database
+[2023-10-27T09:08:49] INFO [root.<module>:103] Collecting data for USDC/USDT from 2023-08-31 00:00
+[2023-10-27T09:08:55] INFO [root.<module>:120] Writing to database
+[2023-10-27T09:08:55] INFO [root.<module>:103] Collecting data for USDP/USDT from 2023-08-31 00:00
+[2023-10-27T09:09:01] INFO [root.<module>:120] Writing to database
+[2023-10-27T09:09:01] INFO [root.<module>:103] Collecting data for VET/USDT from 2023-08-31 00:00
+[2023-10-27T09:09:07] INFO [root.<module>:120] Writing to database
+[2023-10-27T09:09:07] INFO [root.<module>:103] Collecting data for WBTC/USDT from 2023-08-31 00:00
+[2023-10-27T09:09:13] INFO [root.<module>:120] Writing to database
+[2023-10-27T09:09:13] INFO [root.<module>:103] Collecting data for WOO/USDT from 2023-08-31 00:00
+[2023-10-27T09:09:20] INFO [root.<module>:120] Writing to database
+[2023-10-27T09:09:20] INFO [root.<module>:103] Collecting data for XEC/USDT from 2023-08-31 00:00
+[2023-10-27T09:09:25] INFO [root.<module>:120] Writing to database
+[2023-10-27T09:09:25] INFO [root.<module>:103] Collecting data for XLM/USDT from 2023-08-31 00:00
+[2023-10-27T09:09:31] INFO [root.<module>:120] Writing to database
+[2023-10-27T09:09:31] INFO [root.<module>:103] Collecting data for XMR/USDT from 2023-08-31 00:00
+[2023-10-27T09:09:37] INFO [root.<module>:120] Writing to database
+[2023-10-27T09:09:37] INFO [root.<module>:103] Collecting data for XRP/USDT from 2023-08-31 00:00
+[2023-10-27T09:09:43] INFO [root.<module>:120] Writing to database
+[2023-10-27T09:09:43] INFO [root.<module>:103] Collecting data for XTZ/USDT from 2023-08-31 00:00
+[2023-10-27T09:09:49] INFO [root.<module>:120] Writing to database
+[2023-10-27T09:09:49] INFO [root.<module>:103] Collecting data for ZEC/USDT from 2023-08-31 00:00
+[2023-10-27T09:09:55] INFO [root.<module>:120] Writing to database
+[2023-10-27T09:09:55] INFO [root.<module>:103] Collecting data for ZIL/USDT from 2023-08-31 00:00
+[2023-10-27T09:10:01] INFO [root.<module>:120] Writing to database
+[2023-10-27T09:36:35] INFO [root.run:211] Starting model generation process...
+[2023-10-27T09:36:35] INFO [root.query_stationary_test_results:62] Querying stationary test results...
+[2023-10-27T09:36:35] INFO [root.filter_stationary_test_results:68] Filtering stationary test results...
+[2023-10-27T09:36:35] INFO [root.query_top_price_data:82] Querying top price data...
+[2023-10-27T09:36:35] INFO [root.generate_crypto_pairs:89] Generating cryptocurrency pairs...
+[2023-10-27T09:36:35] INFO [root.create_pivot_table:101] Creating pivot table...
+[2023-10-27T09:36:35] INFO [root.generate_iter_list_parallel:189] Generating iter_list in parallel...
+[2023-10-27T09:36:36] INFO [root.calculate_residuals:111] Calculating residuals...
+[2023-10-27T09:36:37] INFO [root.run_stationary_tests:121] Running stationary tests...
+[2023-10-27T09:38:37] INFO [root.filter_stationary_tests_resid:127] Filtering stationary test results on residuals...
+[2023-10-27T09:38:37] INFO [root.extract_models_to_make:155] Extracting models to make...
+[2023-10-27T09:38:37] INFO [root.generate_linear_regression_models:163] Generating linear regression models...
+[2023-10-27T09:38:41] INFO [root.concatenate_models:174] Concatenating linear regression models...
+[2023-10-27T09:38:41] INFO [root.save_models_to_file:181] Saving linear regression models to file...
+[2023-10-27T09:38:41] ERROR [root.run:227] An unexpected error occurred: Unable to find a usable engine; tried using: 'pyarrow', 'fastparquet'.
+A suitable version of pyarrow or fastparquet is required for parquet support.
+Trying to import the above resulted in these errors:
+ - Missing optional dependency 'pyarrow'. pyarrow is required for parquet support. Use pip or conda to install pyarrow.
+ - Missing optional dependency 'fastparquet'. fastparquet is required for parquet support. Use pip or conda to install fastparquet.
+Traceback (most recent call last):
+  File "<ipython-input-9-c873e5d35a0b>", line 224, in run
+    self.save_models_to_file()
+  File "<ipython-input-9-c873e5d35a0b>", line 182, in save_models_to_file
+    self.df_models.to_parquet(
+  File "/Users/simen/anaconda3/envs/crypto-cointegration/lib/python3.10/site-packages/pandas/core/frame.py", line 2970, in to_parquet
+    return to_parquet(
+  File "/Users/simen/anaconda3/envs/crypto-cointegration/lib/python3.10/site-packages/pandas/io/parquet.py", line 479, in to_parquet
+    impl = get_engine(engine)
+  File "/Users/simen/anaconda3/envs/crypto-cointegration/lib/python3.10/site-packages/pandas/io/parquet.py", line 66, in get_engine
+    raise ImportError(
+ImportError: Unable to find a usable engine; tried using: 'pyarrow', 'fastparquet'.
+A suitable version of pyarrow or fastparquet is required for parquet support.
+Trying to import the above resulted in these errors:
+ - Missing optional dependency 'pyarrow'. pyarrow is required for parquet support. Use pip or conda to install pyarrow.
+ - Missing optional dependency 'fastparquet'. fastparquet is required for parquet support. Use pip or conda to install fastparquet.

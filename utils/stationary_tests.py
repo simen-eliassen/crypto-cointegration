@@ -7,9 +7,9 @@ import tqdm
 import itertools
 import requests
 import json
-import multiprocessing
 import warnings
 import sys
+from concurrent.futures import ThreadPoolExecutor, as_completed
 
 warnings.simplefilter(action="ignore", category=pd.errors.PerformanceWarning)
 
@@ -51,7 +51,8 @@ def adf_pp_kpss(df: pd.DataFrame):
     stationary_tests = [ADF, PhillipsPerron, KPSS]
     dfs = []
 
-    for col in tqdm.tqdm([c for c in df.columns if c != "date"]):
+    def run_tests(col):
+        nonlocal dfs
         for test in stationary_tests:
             input_data = df[col].dropna()
             t = test(input_data)
@@ -67,6 +68,13 @@ def adf_pp_kpss(df: pd.DataFrame):
             df_tmp = pd.DataFrame(data, index=[0])
 
             dfs.append(df_tmp)
+
+    with ThreadPoolExecutor() as executor:
+        futures = [
+            executor.submit(run_tests, col) for col in df.columns if col != "date"
+        ]
+        for future in futures:
+            future.result()
 
     df_out = pd.concat(dfs)
     return df_out

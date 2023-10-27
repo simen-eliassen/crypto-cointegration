@@ -1,134 +1,122 @@
-[2023-07-28T11:11:52] INFO [root.<module>:103] Collecting data for ARB/USDT from 2018-01-01 00:00
-[2023-07-28T11:11:58] INFO [root.<module>:120] Writing to database
-[2023-07-28T11:11:58] INFO [root.<module>:103] Collecting data for ATOM/USDT from 2018-01-01 00:00
-[2023-07-28T11:12:05] INFO [root.<module>:103] Collecting data for ATOM/USDT from 2022-01-22 01:00
-[2023-07-28T11:12:11] INFO [root.<module>:120] Writing to database
-[2023-07-28T11:12:11] INFO [root.<module>:103] Collecting data for AVAX/USDT from 2018-01-01 00:00
-[2023-07-28T11:12:17] INFO [root.<module>:103] Collecting data for AVAX/USDT from 2023-06-18 01:00
-[2023-07-28T11:12:24] INFO [root.<module>:120] Writing to database
-[2023-07-28T11:12:24] INFO [root.<module>:103] Collecting data for AXS/USDT from 2018-01-01 00:00
-[2023-07-28T11:12:30] INFO [root.<module>:120] Writing to database
-[2023-07-28T11:12:30] INFO [root.<module>:103] Collecting data for BCH/USDT from 2018-01-01 00:00
-[2023-07-28T11:12:37] INFO [root.<module>:103] Collecting data for BCH/USDT from 2022-08-23 01:00
-[2023-07-28T11:12:43] INFO [root.<module>:120] Writing to database
-[2023-07-28T11:12:43] INFO [root.<module>:103] Collecting data for BNB/USDT from 2018-01-01 00:00
-[2023-07-28T11:12:49] INFO [root.<module>:103] Collecting data for BNB/USDT from 2020-09-26 01:00
-[2023-07-28T11:12:56] INFO [root.<module>:120] Writing to database
-[2023-07-28T11:12:56] INFO [root.<module>:103] Collecting data for BTC/USDT from 2018-01-01 00:00
-[2023-07-28T11:13:02] INFO [root.<module>:103] Collecting data for BTC/USDT from 2020-09-26 01:00
-[2023-07-28T11:13:08] INFO [root.<module>:120] Writing to database
-[2023-07-28T11:13:08] INFO [root.<module>:103] Collecting data for BUSD/USDT from 2018-01-01 00:00
-[2023-07-28T11:13:15] INFO [root.<module>:103] Collecting data for BUSD/USDT from 2022-06-15 01:00
-[2023-07-28T11:13:22] INFO [root.<module>:120] Writing to database
-[2023-07-28T11:13:22] INFO [root.<module>:103] Collecting data for CAKE/USDT from 2018-01-01 00:00
-[2023-07-28T11:18:34] ERROR [root.fetch_historical_data:75] Unexpected Error: Failed to fetch historical data
-Traceback (most recent call last):
-  File "/Users/simen/anaconda3/envs/crypto/lib/python3.11/site-packages/urllib3/connectionpool.py", line 790, in urlopen
-    response = self._make_request(
-               ^^^^^^^^^^^^^^^^^^^
-  File "/Users/simen/anaconda3/envs/crypto/lib/python3.11/site-packages/urllib3/connectionpool.py", line 536, in _make_request
-    response = conn.getresponse()
-               ^^^^^^^^^^^^^^^^^^
-  File "/Users/simen/anaconda3/envs/crypto/lib/python3.11/site-packages/urllib3/connection.py", line 461, in getresponse
-    httplib_response = super().getresponse()
-                       ^^^^^^^^^^^^^^^^^^^^^
-  File "/Users/simen/anaconda3/envs/crypto/lib/python3.11/http/client.py", line 1378, in getresponse
-    response.begin()
-  File "/Users/simen/anaconda3/envs/crypto/lib/python3.11/http/client.py", line 318, in begin
-    version, status, reason = self._read_status()
-                              ^^^^^^^^^^^^^^^^^^^
-  File "/Users/simen/anaconda3/envs/crypto/lib/python3.11/http/client.py", line 287, in _read_status
-    raise RemoteDisconnected("Remote end closed connection without"
-http.client.RemoteDisconnected: Remote end closed connection without response
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/Users/simen/anaconda3/envs/crypto/lib/python3.11/site-packages/requests/adapters.py", line 486, in send
-    resp = conn.urlopen(
-           ^^^^^^^^^^^^^
-  File "/Users/simen/anaconda3/envs/crypto/lib/python3.11/site-packages/urllib3/connectionpool.py", line 844, in urlopen
-    retries = retries.increment(
-              ^^^^^^^^^^^^^^^^^^
-  File "/Users/simen/anaconda3/envs/crypto/lib/python3.11/site-packages/urllib3/util/retry.py", line 470, in increment
-    raise reraise(type(error), error, _stacktrace)
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/Users/simen/anaconda3/envs/crypto/lib/python3.11/site-packages/urllib3/util/util.py", line 38, in reraise
-    raise value.with_traceback(tb)
-  File "/Users/simen/anaconda3/envs/crypto/lib/python3.11/site-packages/urllib3/connectionpool.py", line 790, in urlopen
-    response = self._make_request(
-               ^^^^^^^^^^^^^^^^^^^
-  File "/Users/simen/anaconda3/envs/crypto/lib/python3.11/site-packages/urllib3/connectionpool.py", line 536, in _make_request
-    response = conn.getresponse()
-               ^^^^^^^^^^^^^^^^^^
-  File "/Users/simen/anaconda3/envs/crypto/lib/python3.11/site-packages/urllib3/connection.py", line 461, in getresponse
-    httplib_response = super().getresponse()
-                       ^^^^^^^^^^^^^^^^^^^^^
-  File "/Users/simen/anaconda3/envs/crypto/lib/python3.11/http/client.py", line 1378, in getresponse
-    response.begin()
-  File "/Users/simen/anaconda3/envs/crypto/lib/python3.11/http/client.py", line 318, in begin
-    version, status, reason = self._read_status()
-                              ^^^^^^^^^^^^^^^^^^^
-  File "/Users/simen/anaconda3/envs/crypto/lib/python3.11/http/client.py", line 287, in _read_status
-    raise RemoteDisconnected("Remote end closed connection without"
-urllib3.exceptions.ProtocolError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/Users/simen/anaconda3/envs/crypto/lib/python3.11/site-packages/ccxt/base/exchange.py", line 574, in fetch
-    response = self.session.request(
-               ^^^^^^^^^^^^^^^^^^^^^
-  File "/Users/simen/anaconda3/envs/crypto/lib/python3.11/site-packages/requests/sessions.py", line 589, in request
-    resp = self.send(prep, **send_kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/Users/simen/anaconda3/envs/crypto/lib/python3.11/site-packages/requests/sessions.py", line 703, in send
-    r = adapter.send(request, **kwargs)
-        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/Users/simen/anaconda3/envs/crypto/lib/python3.11/site-packages/requests/adapters.py", line 501, in send
-    raise ConnectionError(err, request=request)
-requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
-
-The above exception was the direct cause of the following exception:
-
-Traceback (most recent call last):
-  File "<ipython-input-23-62838092296e>", line 49, in fetch_historical_data
-    historical_data = exchange.fetch_ohlcv(symbol, timeframe, since, limit)
-                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/Users/simen/anaconda3/envs/crypto/lib/python3.11/site-packages/ccxt/binance.py", line 3202, in fetch_ohlcv
-    response = getattr(self, method)(self.extend(request, params))
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/Users/simen/anaconda3/envs/crypto/lib/python3.11/site-packages/ccxt/base/types.py", line 26, in unbound_method
-    return _self.request(self.path, self.api, self.method, params, config=self.config)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/Users/simen/anaconda3/envs/crypto/lib/python3.11/site-packages/ccxt/binance.py", line 7489, in request
-    response = self.fetch2(path, api, method, params, headers, body, config)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/Users/simen/anaconda3/envs/crypto/lib/python3.11/site-packages/ccxt/base/exchange.py", line 2986, in fetch2
-    return self.fetch(request['url'], request['method'], request['headers'], request['body'])
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/Users/simen/anaconda3/envs/crypto/lib/python3.11/site-packages/ccxt/base/exchange.py", line 627, in fetch
-    raise NetworkError(details) from e
-ccxt.base.errors.NetworkError: binance GET https://api.binance.com/api/v3/klines?interval=1d&limit=1000&symbol=CAKEUSDT&startTime=1514764800000
-[2023-07-28T11:18:34] INFO [root.<module>:120] Writing to database
-[2023-07-28T11:18:34] INFO [root.<module>:103] Collecting data for CFX/USDT from 2018-01-01 00:00
-[2023-07-28T11:18:40] INFO [root.<module>:120] Writing to database
-[2023-07-28T11:18:40] INFO [root.<module>:103] Collecting data for CHZ/USDT from 2018-01-01 00:00
-[2023-07-28T11:18:47] INFO [root.<module>:103] Collecting data for CHZ/USDT from 2022-06-01 01:00
-[2023-07-28T11:18:53] INFO [root.<module>:120] Writing to database
-[2023-07-28T11:18:53] INFO [root.<module>:103] Collecting data for COMP/USDT from 2018-01-01 00:00
-[2023-07-28T11:18:59] INFO [root.<module>:103] Collecting data for COMP/USDT from 2023-03-21 01:00
-[2023-07-28T11:19:06] INFO [root.<module>:120] Writing to database
-[2023-07-28T11:19:06] INFO [root.<module>:103] Collecting data for CRV/USDT from 2018-01-01 00:00
-[2023-07-28T11:19:13] INFO [root.<module>:103] Collecting data for CRV/USDT from 2023-05-11 01:00
-[2023-07-28T11:23:19] INFO [root.<module>:103] Collecting data for 1INCH/USDT from 2018-01-01 00:00
-[2023-07-28T11:23:26] INFO [root.<module>:120] Writing to database
-[2023-07-28T11:23:26] INFO [root.<module>:103] Collecting data for AAVE/USDT from 2018-01-01 00:00
-[2023-07-28T11:23:33] INFO [root.<module>:120] Writing to database
-[2023-07-28T11:23:33] INFO [root.<module>:103] Collecting data for ADA/USDT from 2018-01-01 00:00
-[2023-07-28T11:23:39] INFO [root.<module>:120] Writing to database
-[2023-07-28T11:23:39] INFO [root.<module>:103] Collecting data for ALGO/USDT from 2018-01-01 00:00
-[2023-07-28T11:23:45] INFO [root.<module>:120] Writing to database
-[2023-07-28T11:23:45] INFO [root.<module>:103] Collecting data for APE/USDT from 2018-01-01 00:00
-[2023-07-28T11:23:52] INFO [root.<module>:120] Writing to database
-[2023-07-28T11:23:52] INFO [root.<module>:103] Collecting data for APT/USDT from 2018-01-01 00:00
+[2023-08-30T13:16:30] INFO [root.<module>:8] Collecting data for DOGE/USDT from 2023-07-29 00:00
+[2023-08-30T13:16:37] INFO [root.<module>:25] Writing to database
+[2023-08-30T13:16:37] INFO [root.<module>:8] Collecting data for DOT/USDT from 2023-07-29 00:00
+[2023-08-30T13:16:44] INFO [root.<module>:25] Writing to database
+[2023-08-30T13:16:44] INFO [root.<module>:8] Collecting data for DYDX/USDT from 2023-07-29 00:00
+[2023-08-30T13:16:50] INFO [root.<module>:25] Writing to database
+[2023-08-30T13:16:50] INFO [root.<module>:8] Collecting data for EGLD/USDT from 2023-07-29 00:00
+[2023-08-30T13:16:57] INFO [root.<module>:25] Writing to database
+[2023-08-30T13:16:57] INFO [root.<module>:8] Collecting data for ENJ/USDT from 2023-07-29 00:00
+[2023-08-30T13:17:03] INFO [root.<module>:25] Writing to database
+[2023-08-30T13:17:03] INFO [root.<module>:8] Collecting data for EOS/USDT from 2023-07-29 00:00
+[2023-08-30T13:17:09] INFO [root.<module>:25] Writing to database
+[2023-08-30T13:17:09] INFO [root.<module>:8] Collecting data for ETC/USDT from 2023-07-29 00:00
+[2023-08-30T13:17:16] INFO [root.<module>:25] Writing to database
+[2023-08-30T13:17:16] INFO [root.<module>:8] Collecting data for ETH/USDT from 2023-07-28 00:00
+[2023-08-30T13:17:22] INFO [root.<module>:25] Writing to database
+[2023-08-30T13:17:22] INFO [root.<module>:8] Collecting data for FIL/USDT from 2023-07-29 00:00
+[2023-08-30T13:17:28] INFO [root.<module>:25] Writing to database
+[2023-08-30T13:17:28] INFO [root.<module>:8] Collecting data for FLOW/USDT from 2023-07-29 00:00
+[2023-08-30T13:17:35] INFO [root.<module>:25] Writing to database
+[2023-08-30T13:17:35] INFO [root.<module>:8] Collecting data for FTM/USDT from 2023-07-29 00:00
+[2023-08-30T13:17:42] INFO [root.<module>:25] Writing to database
+[2023-08-30T13:17:42] INFO [root.<module>:8] Collecting data for FXS/USDT from 2023-07-29 00:00
+[2023-08-30T13:17:49] INFO [root.<module>:25] Writing to database
+[2023-08-30T13:17:49] INFO [root.<module>:8] Collecting data for GALA/USDT from 2023-07-29 00:00
+[2023-08-30T13:17:55] INFO [root.<module>:25] Writing to database
+[2023-08-30T13:17:55] INFO [root.<module>:8] Collecting data for GMX/USDT from 2023-07-29 00:00
+[2023-08-30T13:18:01] INFO [root.<module>:25] Writing to database
+[2023-08-30T13:18:01] INFO [root.<module>:8] Collecting data for GRT/USDT from 2023-07-29 00:00
+[2023-08-30T13:18:08] INFO [root.<module>:25] Writing to database
+[2023-08-30T13:18:08] INFO [root.<module>:8] Collecting data for HBAR/USDT from 2023-07-29 00:00
+[2023-08-30T13:18:14] INFO [root.<module>:25] Writing to database
+[2023-08-30T13:18:14] INFO [root.<module>:8] Collecting data for ICP/USDT from 2023-07-29 00:00
+[2023-08-30T13:18:20] INFO [root.<module>:25] Writing to database
+[2023-08-30T13:18:20] INFO [root.<module>:8] Collecting data for IMX/USDT from 2023-07-29 00:00
+[2023-08-30T13:18:27] INFO [root.<module>:25] Writing to database
+[2023-08-30T13:18:27] INFO [root.<module>:8] Collecting data for INJ/USDT from 2023-07-29 00:00
+[2023-08-30T13:18:33] INFO [root.<module>:25] Writing to database
+[2023-08-30T13:18:33] INFO [root.<module>:8] Collecting data for KAVA/USDT from 2023-07-29 00:00
+[2023-08-30T13:18:39] INFO [root.<module>:25] Writing to database
+[2023-08-30T13:18:39] INFO [root.<module>:8] Collecting data for KLAY/USDT from 2023-07-29 00:00
+[2023-08-30T13:18:46] INFO [root.<module>:25] Writing to database
+[2023-08-30T13:18:46] INFO [root.<module>:8] Collecting data for LDO/USDT from 2023-07-29 00:00
+[2023-08-30T13:18:52] INFO [root.<module>:25] Writing to database
+[2023-08-30T13:18:52] INFO [root.<module>:8] Collecting data for LINK/USDT from 2023-07-29 00:00
+[2023-08-30T13:18:58] INFO [root.<module>:25] Writing to database
+[2023-08-30T13:18:58] INFO [root.<module>:8] Collecting data for LTC/USDT from 2023-07-28 00:00
+[2023-08-30T13:19:05] INFO [root.<module>:25] Writing to database
+[2023-08-30T13:19:05] INFO [root.<module>:8] Collecting data for LUNC/USDT from 2023-07-29 00:00
+[2023-08-30T13:19:11] INFO [root.<module>:25] Writing to database
+[2023-08-30T13:19:11] INFO [root.<module>:8] Collecting data for MANA/USDT from 2023-07-29 00:00
+[2023-08-30T13:19:17] INFO [root.<module>:25] Writing to database
+[2023-08-30T13:19:17] INFO [root.<module>:8] Collecting data for MATIC/USDT from 2023-07-29 00:00
+[2023-08-30T13:19:24] INFO [root.<module>:25] Writing to database
+[2023-08-30T13:19:24] INFO [root.<module>:8] Collecting data for MINA/USDT from 2023-07-29 00:00
+[2023-08-30T13:19:30] INFO [root.<module>:25] Writing to database
+[2023-08-30T13:19:30] INFO [root.<module>:8] Collecting data for MKR/USDT from 2023-07-29 00:00
+[2023-08-30T13:19:36] INFO [root.<module>:25] Writing to database
+[2023-08-30T13:19:36] INFO [root.<module>:8] Collecting data for NEAR/USDT from 2023-07-29 00:00
+[2023-08-30T13:19:43] INFO [root.<module>:25] Writing to database
+[2023-08-30T13:19:43] INFO [root.<module>:8] Collecting data for NEO/USDT from 2023-07-28 00:00
+[2023-08-30T13:19:50] INFO [root.<module>:25] Writing to database
+[2023-08-30T13:19:50] INFO [root.<module>:8] Collecting data for NEXO/USDT from 2023-07-29 00:00
+[2023-08-30T13:19:56] INFO [root.<module>:25] Writing to database
+[2023-08-30T13:19:56] INFO [root.<module>:8] Collecting data for OP/USDT from 2023-07-29 00:00
+[2023-08-30T13:20:02] INFO [root.<module>:25] Writing to database
+[2023-08-30T13:20:02] INFO [root.<module>:8] Collecting data for PAXG/USDT from 2023-07-29 00:00
+[2023-08-30T13:20:09] INFO [root.<module>:25] Writing to database
+[2023-08-30T13:20:09] INFO [root.<module>:8] Collecting data for PEPE/USDT from 2023-07-29 00:00
+[2023-08-30T13:20:15] INFO [root.<module>:25] Writing to database
+[2023-08-30T13:20:15] INFO [root.<module>:8] Collecting data for QNT/USDT from 2023-07-29 00:00
+[2023-08-30T13:20:21] INFO [root.<module>:25] Writing to database
+[2023-08-30T13:20:21] INFO [root.<module>:8] Collecting data for RNDR/USDT from 2023-07-29 00:00
+[2023-08-30T13:20:28] INFO [root.<module>:25] Writing to database
+[2023-08-30T13:20:28] INFO [root.<module>:8] Collecting data for RPL/USDT from 2023-07-29 00:00
+[2023-08-30T13:20:34] INFO [root.<module>:25] Writing to database
+[2023-08-30T13:20:34] INFO [root.<module>:8] Collecting data for RUNE/USDT from 2023-07-29 00:00
+[2023-08-30T13:20:41] INFO [root.<module>:25] Writing to database
+[2023-08-30T13:20:41] INFO [root.<module>:8] Collecting data for SAND/USDT from 2023-07-29 00:00
+[2023-08-30T13:20:47] INFO [root.<module>:25] Writing to database
+[2023-08-30T13:20:47] INFO [root.<module>:8] Collecting data for SHIB/USDT from 2023-07-29 00:00
+[2023-08-30T13:20:53] INFO [root.<module>:25] Writing to database
+[2023-08-30T13:20:53] INFO [root.<module>:8] Collecting data for SNX/USDT from 2023-07-29 00:00
+[2023-08-30T13:21:00] INFO [root.<module>:25] Writing to database
+[2023-08-30T13:21:00] INFO [root.<module>:8] Collecting data for SOL/USDT from 2023-07-29 00:00
+[2023-08-30T13:21:06] INFO [root.<module>:25] Writing to database
+[2023-08-30T13:21:06] INFO [root.<module>:8] Collecting data for STX/USDT from 2023-07-29 00:00
+[2023-08-30T13:21:13] INFO [root.<module>:25] Writing to database
+[2023-08-30T13:21:13] INFO [root.<module>:8] Collecting data for SUI/USDT from 2023-07-29 00:00
+[2023-08-30T13:21:19] INFO [root.<module>:25] Writing to database
+[2023-08-30T13:21:19] INFO [root.<module>:8] Collecting data for THETA/USDT from 2023-07-29 00:00
+[2023-08-30T13:21:25] INFO [root.<module>:25] Writing to database
+[2023-08-30T13:21:25] INFO [root.<module>:8] Collecting data for TRX/USDT from 2023-07-29 00:00
+[2023-08-30T13:21:32] INFO [root.<module>:25] Writing to database
+[2023-08-30T13:21:32] INFO [root.<module>:8] Collecting data for TUSD/USDT from 2023-07-29 00:00
+[2023-08-30T13:21:38] INFO [root.<module>:25] Writing to database
+[2023-08-30T13:21:38] INFO [root.<module>:8] Collecting data for TWT/USDT from 2023-07-29 00:00
+[2023-08-30T13:21:45] INFO [root.<module>:25] Writing to database
+[2023-08-30T13:21:45] INFO [root.<module>:8] Collecting data for UNI/USDT from 2023-07-29 00:00
+[2023-08-30T13:21:51] INFO [root.<module>:25] Writing to database
+[2023-08-30T13:21:51] INFO [root.<module>:8] Collecting data for USDC/USDT from 2023-07-29 00:00
+[2023-08-30T13:21:57] INFO [root.<module>:25] Writing to database
+[2023-08-30T13:21:57] INFO [root.<module>:8] Collecting data for USDP/USDT from 2023-07-29 00:00
+[2023-08-30T13:22:04] INFO [root.<module>:25] Writing to database
+[2023-08-30T13:22:04] INFO [root.<module>:8] Collecting data for VET/USDT from 2023-07-29 00:00
+[2023-08-30T13:22:10] INFO [root.<module>:25] Writing to database
+[2023-08-30T13:22:10] INFO [root.<module>:8] Collecting data for WBTC/USDT from 2023-07-29 00:00
+[2023-08-30T13:22:16] INFO [root.<module>:25] Writing to database
+[2023-08-30T13:22:16] INFO [root.<module>:8] Collecting data for WOO/USDT from 2023-07-29 00:00
+[2023-08-30T13:22:23] INFO [root.<module>:25] Writing to database
+[2023-08-30T13:22:23] INFO [root.<module>:8] Collecting data for XEC/USDT from 2023-07-29 00:00
+[2023-08-30T13:22:29] INFO [root.<module>:25] Writing to database
+[2023-08-30T13:22:29] INFO [root.<module>:8] Collecting data for XLM/USDT from 2023-07-29 00:00
+[2023-08-30T13:22:36] INFO [root.<module>:25] Writing to database
+[2023-08-30T13:22:36] INFO [root.<module>:8] Collecting data for XMR/USDT from 2023-07-29 00:00
+[2023-08-30T13:22:42] INFO [root.<module>:25] Writing to database
+[2023-08-30T13:22:42] INFO [root.<module>:8] Collecting data for XRP/USDT from 2023-07-29 00:00
+[2023-08-30T13:22:48] INFO [root.<module>:25] Writing to database
+[2023-08-30T13:22:48] INFO [root.<module>:8] Collecting data for XTZ/USDT from 2023-07-29 00:00
+[2023-08-30T13:22:55] INFO [root.<module>:25] Writing to database
+[2023-08-30T13:22:55] INFO [root.<module>:8] Collecting data for ZEC/USDT from 2023-07-29 00:00
+[2023-08-30T13:23:01] INFO [root.<module>:25] Writing to database

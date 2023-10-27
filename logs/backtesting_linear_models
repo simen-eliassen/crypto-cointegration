@@ -1,0 +1,19 @@
+[2023-10-27T10:26:24] ERROR [root.run:243] An unexpected error occurred: table tblModels has no column named training_end_date
+Traceback (most recent call last):
+  File "<ipython-input-8-ff00a3677994>", line 239, in run
+    self.save_models_to_database()
+  File "<ipython-input-8-ff00a3677994>", line 199, in save_models_to_database
+    self.df_models.to_sql("tblModels", conn, if_exists="append", index=False)
+  File "/Users/simen/anaconda3/envs/crypto-cointegration/lib/python3.10/site-packages/pandas/util/_decorators.py", line 333, in wrapper
+    return func(*args, **kwargs)
+  File "/Users/simen/anaconda3/envs/crypto-cointegration/lib/python3.10/site-packages/pandas/core/generic.py", line 3008, in to_sql
+    return sql.to_sql(
+  File "/Users/simen/anaconda3/envs/crypto-cointegration/lib/python3.10/site-packages/pandas/io/sql.py", line 788, in to_sql
+    return pandas_sql.to_sql(
+  File "/Users/simen/anaconda3/envs/crypto-cointegration/lib/python3.10/site-packages/pandas/io/sql.py", line 2439, in to_sql
+    return table.insert(chunksize, method)
+  File "/Users/simen/anaconda3/envs/crypto-cointegration/lib/python3.10/site-packages/pandas/io/sql.py", line 1059, in insert
+    num_inserted = exec_insert(conn, keys, chunk_iter)
+  File "/Users/simen/anaconda3/envs/crypto-cointegration/lib/python3.10/site-packages/pandas/io/sql.py", line 2135, in _execute_insert
+    conn.executemany(self.insert_statement(num_rows=1), data_list)
+sqlite3.OperationalError: table tblModels has no column named training_end_date
